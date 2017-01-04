@@ -1,2 +1,2 @@
-Assignments done: \n
+Assignments done: 
 00

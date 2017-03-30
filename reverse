@@ -1,0 +1,22 @@
+#include <stdio.h>
+void reverse(char *arr);
+
+int  main(){
+	char string[4] = "hey" ;
+	 reverse(string);
+}
+
+void reverse(char *arr){
+	
+	char help[4];
+	for(int i=0;i<=4;i++)
+	{
+		for(int c = 3 ;c>0;c--)
+		{
+			help[c]=arr[i];
+		}
+	}
+
+	for(int i = 0; i<4; i++) printf("%c",help[i]);
+	
+}
